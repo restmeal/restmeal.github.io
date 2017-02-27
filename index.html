@@ -116,13 +116,6 @@
 								</li>   -->
 								<li><a href="contact.html">Contact Us</a></li>
 							</ul>
-						</div>
-						<div class="cart cart box_1"> 
-							<form action="#" method="post" class="last"> 
-								<input type="hidden" name="cmd" value="_cart" />
-								<input type="hidden" name="display" value="1" />
-								<button class="w3view-cart" type="submit" name="submit" value=""><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
-							</form>   
 						</div> 
 					</nav>
 				</div>
@@ -135,18 +128,9 @@
 			<div class="container">
 				<h2>Order delicious meals from your <br> <span>favourite restaurants.</span></h2>
 				<div class="agileits_search">
-					<form action="#" method="post">
-						<input name="Search" type="text" placeholder="Enter Meal Name" required="">
-						<select id="agileinfo_search" name="agileinfo_search" required="">
-							<option value="">Featured Restaurants</option>
-							<option value="">Dowells</option>
-							<option value="">Shamsudeen Gurasa</option>
-							<option value="">Dunkin Pepper</option>
-							<option value="">Murtala Suya</option>
-							<option value="">Dadin Kowa</option>
-							<option value="">Other</option>
-						</select>
-						<input type="submit" value="Search">
+					<form action="#" method="">
+						<a class="btn btn-danger btn-lg btn-block" href="#order" role="button">Order Now!</a>
+						
 					</form>
 				</div> 
 			</div>
@@ -186,7 +170,7 @@
 				<div class="col-md-3 col-sm-3 col-xs-6 order-w3lsgrids"> 
 					<div class="order-w3text"> 
 						<i class="fa fa-map" aria-hidden="true"></i> 
-						<h5>Search Restaurant...</h5>
+						<h5>Select Restaurant...</h5>
 						<span>1</span>
 					</div>
 				</div>
@@ -226,7 +210,7 @@
 						<i class="fa fa-truck" aria-hidden="true"></i>
 					</div> 
 					<div class="deals-right">
-						<h4>DELIVERY</h4>
+						<h4>Delivery Services</h4>
 						<p>We're into delivery services at a reasonable amount.</p>
 					</div> 
 					<div class="clearfix"> </div>
@@ -266,26 +250,49 @@
 		</div>
 	</div>
 	<!-- //deals --> 
+
+
 	<!-- dishes -->
 	<div id="order">
-	<div class="w3agile-spldishes">
-		<div class="container">
-			<h3 class="w3ls-title">Order Now</h3>
-			<div class="spldishes-agileinfo">
-					<div class="contact" id="contact">
-		<div class="container">
-			<div class="contact-grids">
-				<div class="cognito">
+<div class="container" style="text-align:center">
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link active" data-toggle="tab" href="#home" role="tab" aria-controls="home">Single Order (from BUK Restaurants)</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-toggle="tab" href="#profile" role="tab" aria-controls="profile"> Single Order (from External Restaurants )</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" data-toggle="tab" href="#messages" role="tab" aria-controls="messages">Bulk Pre-Orders</a>
+  </li>
+</ul>
+</div>
+
+<div class="tab-content">
+  <div class="tab-pane active" id="home" role="tabpanel"><div class="cognito">
 <script src="https://services.cognitoforms.com/s/thWng98pwECN4vQmbQRBBw"></script>
 <script>Cognito.load("forms", { id: "1" });</script>
+</div> </div>
+
+  <div class="tab-pane" id="profile" role="tabpanel"><div class="cognito">
+<script src="https://services.cognitoforms.com/s/thWng98pwECN4vQmbQRBBw"></script>
+<script>Cognito.load("forms", { id: "1" });</script>
+</div> </div>
+
+  <div class="tab-pane" id="messages" role="tabpanel"><div class="cognito">
+<script src="https://services.cognitoforms.com/s/thWng98pwECN4vQmbQRBBw"></script>
+<script>Cognito.load("forms", { id: "1" });</script>
+</div> </div>
 </div>
-<br> 
+
+<script>
+  $(function () {
+    $('#myTab a:last').tab('show')
+  })
+</script>
+
 				
-				</div>  
 				<div class="clearfix"> </div>
-			</div>
-		</div>
-	</div>
 	</div>
 	<!-- //dishes --> 
 	<!-- subscribe -->
