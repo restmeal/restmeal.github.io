@@ -253,46 +253,38 @@
 
 
 	<!-- dishes -->
-
-
-	<!-- //dishes --> 
 	<div id="order">
-<ul class="nav nav-tabs" id="myTab" role="tablist">
-  <li class="nav-item">
-    <a class="nav-link active" data-toggle="tab" href="#home" role="tab" aria-controls="home">Single Order (from BUK Restaurants)</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" data-toggle="tab" href="#profile" role="tab" aria-controls="profile">Single Order (from External Restaurants )</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" data-toggle="tab" href="#messages" role="tab" aria-controls="messages">Bulk Pre-Orders</a>
-  </li>
-</ul>
+		<div class="container">
+    <div class="row">
+        <div class="span12">
+            <ul class="nav nav-tabs" id="myTabs">
+              <li class="active"><a href="#home" data-toggle="tab">Single Order (from BUK Restaurants)</a></li>
+              <li><a href="#dpa" data-toggle="tab">Single Order (from External Restaurants )</a></li>
+              <li><a href="#rn" data-toggle="tab">Bulk Pre-Orders</a></li>
+            </ul>
+            
+            <div class="tab-content">
+              <div class="tab-pane active" id="home" data-src="https://services.cognitoforms.com/f/thWng98pwECN4vQmbQRBBw?id=3">
+		      <iframe src=""  style="position:relative;width:1px;min-width:100%;*width:100%;" frameborder="0" scrolling="yes" seamless="seamless" height="1411" width="100%"></iframe>
+<script src="https://services.cognitoforms.com/scripts/embed.js"></script>">           
+                </div>
+		                  <div class="tab-pane" id="dpa" data-src="https://services.cognitoforms.com/f/thWng98pwECN4vQmbQRBBw?id=1">
+		      <iframe src=""  style="position:relative;width:1px;min-width:100%;*width:100%;" frameborder="0" scrolling="yes" seamless="seamless" height="1263" width="100%"></iframe>
+<script src="https://services.cognitoforms.com/scripts/embed.js"></script>">           
+                </div>
 
-<div class="tab-content">
-  <div class="tab-pane active" id="home" role="tabpanel">
-<div class="cognito">
-
-<script src="https://services.cognitoforms.com/s/thWng98pwECN4vQmbQRBBw"></script>
-<script>Cognito.load("forms", { id: "1" });</script>
-</div>
-</div>
-
-  <div class="tab-pane" id="profile" role="tabpanel">
-	<div class="cognito">
-<script src="https://services.cognitoforms.com/s/thWng98pwECN4vQmbQRBBw"></script>
-<script>Cognito.load("forms", { id: "3" });</script>
+              <div class="tab-pane" id="rn" data-src="">
+		      <p> Coming Soon... </p>
+		    </div>
+            </div>
+        </div>
+    </div>
 </div>
 	</div>
-  <div class="tab-pane" id="messages" role="tabpanel">Coming Soon...</div>
-</div>
 
-<script>
-  $(function () {
-    $('#myTab a:first').tab('show')
-  })
-</script>
-</div>
+	<!-- //dishes --> 
+
+
 	<!-- subscribe -->
 	<div class="subscribe agileits-w3layouts"> 
 		<div class="container">
