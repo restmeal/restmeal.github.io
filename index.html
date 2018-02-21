@@ -271,12 +271,13 @@
 				cursor: pointer;
 				transition: 0.3s;
 				width: 20%;
-				min-width: 100px;
+				min-width: 80px;
 				font-family: 'Supermercado One', cursive;
 			}
 
 			.tablinks{
 				font-size: 90%;
+				min-height: 60px;
 			}
 			
 			.tab button:hover {
@@ -351,6 +352,10 @@
 
 		  .tab button {
 			  margin: 0 3px;
+		  }
+
+		  .tablinks{
+			  font-size: 80%;
 		  }
 
 		}
@@ -476,6 +481,7 @@
 				<div class="tab">
 				<button class="tablinks" onclick="openCity(event, 'singleBuk')" id="defaultOpen">Single Order <br> (BUK restaurants)</button>
 				<button class="tablinks" onclick="openCity(event, 'singleOther')">Single Order <br> (Other retaurants)</button>
+				<button class="tablinks" onclick="openCity(event, 'corporateForms')"> Corporate  <br> Orders </button>
 				</div>
 
 				<!-- Tab content -->
@@ -488,6 +494,12 @@
 				<div id="singleOther" class="tabcontent">
 					<!-- Iframe goes here -->
 					<iframe src="https://services.cognitoforms.com/f/thWng98pwECN4vQmbQRBBw?id=3" style="position:relative;width:1px;min-width:100%;*width:100%;" frameborder="0" scrolling="yes" seamless="seamless" height="1529" width="100%"></iframe>
+					<script src="https://services.cognitoforms.com/scripts/embed.js"></script>
+				</div>
+
+				<div id="corporateForms" class="tabcontent">
+					<!-- Iframe goes here -->
+					<iframe src="https://services.cognitoforms.com/f/thWng98pwECN4vQmbQRBBw?id=5" style="position:relative;width:1px;min-width:100%;*width:100%;" frameborder="0" scrolling="yes" seamless="seamless" height="983" width="100%"></iframe>
 					<script src="https://services.cognitoforms.com/scripts/embed.js"></script>
 				</div>
 
