@@ -416,7 +416,10 @@
 
     FB.getLoginStatus(function(response) {
       statusChangeCallback(response);
-    });
+	});
+	
+	// FB Analytics
+	FB.AppEvents.logPageView();
 
   };
 
