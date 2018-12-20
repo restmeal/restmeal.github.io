@@ -513,20 +513,22 @@
 			  <a href="#home"><img src="assets/logo.svg" width="100px;"></a>
 
 			  <!-- For mobile -->
-			  <a href="#" class="nav">Party Orders</a>
-			  <a href="#" class="nav">Team Up Scheme</a>
-			  <a href="#" class="nav">Restaurant Online Presence</a>
-			  <a href="#" class="nav">Delivery Services</a>
+			  <a onclick="showForm();" class="nav">Office Order</a>
+			  <a onclick="showForm();" class="nav">Kiddies Lunch</a>
+			  <a onclick="showForm();" class="nav">Delivery Services</a>
+			  <a onclick="showForm();" class="nav">Events/Bulk Food Order</a>
+			  <a onclick="showForm();" class="nav">Restaurant Online Presence</a>
 
 				<div class="dropdown">
 			    <button class="button dropbtn" onclick="drop();">
 			    	<span>Services</span>
 			    </button>
 			    <div class="dropdown-content" id="myDropdown">
-			      <a href="#">Party Orders</a>
-			      <a href="#">Team Up Scheme</a>
-			      <a href="#">Restaurant Online Presence</a>
-			      <a href="#">Delivery Services</a>
+			  <a onclick="showForm();">Office Order</a>
+			  <a onclick="showForm();">Kiddies Lunch</a>
+			  <a onclick="showForm();">Delivery Services</a>
+			  <a onclick="showForm();">Events/Bulk Food Order</a>
+			  <a onclick="showForm();">Restaurant Online Presence</a>
 			    </div>
 			  	</div>
 
@@ -563,37 +565,30 @@
 		<div class="orderForm" id="orderForm">
 
 				<div class="tab">
-				<button class="tablinks" onclick="openCity(event, 'singleBuk')" id="defaultOpen">Single Order <br> (BUK restaurants)</button>
-				<button class="tablinks" onclick="openCity(event, 'singleOther')">Single Order <br> (Other retaurants)</button>
-				<button class="tablinks" onclick="openCity(event, 'corporateForms')"> Corporate  <br> Orders </button>
-				<button class="tablinks" onclick="openCity(event, 'kiddiesLunch')"> Kiddies  <br> Lunch </button>
+				<button class="tablinks" onclick="openCity(event, 'officeOrder')" id="defaultOpen">Office <br> Order</button>
+				<button class="tablinks" onclick="openCity(event, 'kiddiesLunch')">Kiddies <br> Lunch</button>
+				<button class="tablinks" onclick="openCity(event, 'otherServices')"> Other <br> Services</button>
 				</div>
 
 				<!-- Tab content -->
-				<div id="singleBuk" class="tabcontent">
+				<div id="officeOrder" class="tabcontent">
 					<!-- Iframe goes here -->
-					<iframe src="https://services.cognitoforms.com/f/thWng98pwECN4vQmbQRBBw?id=1" style="position:relative;width:1px;min-width:100%;*width:100%;" frameborder="0" scrolling="yes" seamless="seamless" height="1421" width="100%"></iframe>
+					<iframe src="https://services.cognitoforms.com/f/thWng98pwECN4vQmbQRBBw?id=7" style="position:relative;width:1px;min-width:100%;*width:100%;" frameborder="0" scrolling="yes" seamless="seamless" height="1294" width="100%"></iframe>
 					<script src="https://services.cognitoforms.com/scripts/embed.js"></script>
 				</div>
-
-				<div id="singleOther" class="tabcontent">
-					<!-- Iframe goes here -->
-					<iframe src="https://services.cognitoforms.com/f/thWng98pwECN4vQmbQRBBw?id=3" style="position:relative;width:1px;min-width:100%;*width:100%;" frameborder="0" scrolling="yes" seamless="seamless" height="1529" width="100%"></iframe>
-					<script src="https://services.cognitoforms.com/scripts/embed.js"></script>
-				</div>
-
-				<div id="corporateForms" class="tabcontent">
-					<!-- Iframe goes here -->
-					<iframe src="https://services.cognitoforms.com/f/thWng98pwECN4vQmbQRBBw?id=5" style="position:relative;width:1px;min-width:100%;*width:100%;" frameborder="0" scrolling="yes" seamless="seamless" height="983" width="100%"></iframe>
-					<script src="https://services.cognitoforms.com/scripts/embed.js"></script>
-				</div>
-
 
 				<div id="kiddiesLunch" class="tabcontent">
 					<!-- Iframe goes here -->
-					<iframe src="https://services.cognitoforms.com/f/thWng98pwECN4vQmbQRBBw?id=6" style="position:relative;width:1px;min-width:100%;*width:100%;" frameborder="0" scrolling="yes" seamless="seamless" height="556" width="100%"></iframe>
+					<iframe src="https://services.cognitoforms.com/f/thWng98pwECN4vQmbQRBBw?id=6" style="position:relative;width:1px;min-width:100%;*width:100%;" frameborder="0" scrolling="yes" seamless="seamless" height="482" width="100%"></iframe>
 					<script src="https://services.cognitoforms.com/scripts/embed.js"></script>
 				</div>
+
+				<div id="otherServices" class="tabcontent">
+					<!-- Iframe goes here -->
+					<iframe src="https://services.cognitoforms.com/f/thWng98pwECN4vQmbQRBBw?id=4" style="position:relative;width:1px;min-width:100%;*width:100%;" frameborder="0" scrolling="yes" seamless="seamless" height="524" width="100%"></iframe>
+					<script src="https://services.cognitoforms.com/scripts/embed.js"></script>
+				</div>
+
 		</div>
 
 
@@ -607,7 +602,7 @@
 	<a href="http://www.instagram.com/_restmeal" target="_blank"><i class="fa fa-instagram footerLink"></i></a>
 	<a href="mailto:restmeal@gmail.com?subject=contact" target="_blank"><i class="fa fa-envelope-o footerLink"></i></a>
 
-	<p class="footDetails">&copy;2018&nbsp;&nbsp;&nbsp;&nbsp; restmeal.com.ng </p>
+	<p class="footDetails">&copy;2018&nbsp;&nbsp;&nbsp;&nbsp; RestMeal </p>
 </div>
 
 
